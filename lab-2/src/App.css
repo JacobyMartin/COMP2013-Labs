@@ -182,3 +182,18 @@
     border-right-color: var(--border);
   }
 }
+
+.ResortCard{
+  border-radius: 5px; 
+  width: 120px; 
+  padding: 10px; 
+  margin: 10px;
+}
+
+.CardContainer{
+  width: 300px; 
+  display: flex; 
+  padding: 10px; 
+  margin: 10px;
+  justify-content: space-around;
+}
