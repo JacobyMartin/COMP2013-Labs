@@ -186,14 +186,14 @@
 .ResortCard{
   border-radius: 5px; 
   width: 120px; 
+  margin: 20px;
   padding: 10px; 
-  margin: 10px;
 }
 
 .CardContainer{
   width: 300px; 
   display: flex; 
-  padding: 10px; 
   margin: 10px;
+  padding: 10px; 
   justify-content: space-around;
 }

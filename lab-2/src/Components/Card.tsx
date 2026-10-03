@@ -22,12 +22,13 @@ export default function ResortCard({
 
             <p style={{fontWeight: "bolder"}}> {country}</p>
             <p> {location}</p>
-            <p style={{color: rating > 4 ? "green" : "red"}}> {rating }★</p> // inline ternary to assign either red or green to rating text
+            <p style={{color: rating > 4.0 ? "green" : "red"}}> {rating }★</p> 
             <p> $ {price}/night </p>
 
             </div>
     );
-
+                                                //^ inline ternary to set red or green based on if rating is 
+                                                //above 4.0 or below
 }
 
 
